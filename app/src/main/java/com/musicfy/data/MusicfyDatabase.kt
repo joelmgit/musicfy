@@ -7,7 +7,7 @@ import com.musicfy.model.Track
 
 @Database(entities = [Track::class],version=1, exportSchema = false)
 abstract class MusicfyDatabase : RoomDatabase() {
-    abstract fun lugarDao() : TrackDAO
+    abstract fun trackDAO() : TrackDAO
     companion object {
         @Volatile
         private var INSTANCE: MusicfyDatabase? = null
@@ -20,7 +20,7 @@ abstract class MusicfyDatabase : RoomDatabase() {
                 val instance= Room.databaseBuilder(
                     context.applicationContext,
                     MusicfyDatabase::class.java,
-                    "track_database"
+                    "musicfy_database"
                 ).build()
                 INSTANCE = instance
                 return instance

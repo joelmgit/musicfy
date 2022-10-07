@@ -18,7 +18,7 @@ class TrackListViewModel(application: Application) : AndroidViewModel(applicatio
     val text: LiveData<String> = _text
 
     init {
-        val lugarDao = MusicfyDatabase.getDatabase(application).lugarDao()
+        val lugarDao = MusicfyDatabase.getDatabase(application).trackDAO()
         repository = TrackRepository(lugarDao)
         getTracks = repository.getTracks
     }
