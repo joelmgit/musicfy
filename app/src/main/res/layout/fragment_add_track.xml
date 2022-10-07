@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".ui.trackList.AddTrackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/text_add_track"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/trackNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/authorField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_author"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/albumField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_album"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/durationField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_duration"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/trackAudioSourceField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_audio_source"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/trackImageCoverSourceField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_track_cover_image_source"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addTrackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/text_add_track_button" />
+
+</LinearLayout>

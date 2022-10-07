@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792457402232",
+    "project_id": "musicfy-4cf19",
+    "storage_bucket": "musicfy-4cf19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792457402232:android:9bc016d963191264a7da8d",
+        "android_client_info": {
+          "package_name": "com.musicfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792457402232-rr4d7uvses4l5vvqslileil13joj883j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVdgeY2OyLKuPOtZTjnDTtolMElB1na18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792457402232-rr4d7uvses4l5vvqslileil13joj883j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
